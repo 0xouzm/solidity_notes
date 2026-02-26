@@ -23,6 +23,7 @@
 - batch FRI
 - polynomial decomposition
 - recap
+- deep ali
 
 - Big picture
 ```
