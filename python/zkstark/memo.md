@@ -24,6 +24,7 @@
 - polynomial decomposition
 - recap
 - deep ali
+- deep ali sec
 
 - Big picture
 ```
