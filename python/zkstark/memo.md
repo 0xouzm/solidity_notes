@@ -26,6 +26,8 @@
 - deep ali
 - deep ali sec
 - FRI
+- Proximity gap -> distance preservation
+- Honest and dishonest prover
 
 - Big picture
 ```
