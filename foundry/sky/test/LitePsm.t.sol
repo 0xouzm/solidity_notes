@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.30;
+pragma solidity 0.8.33;
 
 import {Test, console} from "forge-std/Test.sol";
-import {IERC20} from "../src/IERC20.sol";
+import {IERC20} from "../src/interfaces/IERC20.sol";
 
 // MCD_LITE_PSM_USDC_A
 address constant LITE_PSM = 0xf6e72Db5454dd049d0788e411b06CfAF16853042;
@@ -17,8 +17,12 @@ interface IDssLitePsm {
     // Fee for buying gem 1e18 = 100%
     function tout() external view returns (uint256);
 
-    function sellGem(address usr, uint256 gemAmt) external returns (uint256 daiOutWad);
-    function buyGem(address usr, uint256 gemAmt) external returns (uint256 daiInWad);
+    function sellGem(address usr, uint256 gemAmt)
+        external
+        returns (uint256 daiOutWad);
+    function buyGem(address usr, uint256 gemAmt)
+        external
+        returns (uint256 daiInWad);
 }
 
 /*
