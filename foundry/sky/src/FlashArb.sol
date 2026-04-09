@@ -21,7 +21,7 @@ uint160 constant MIN_SQRT_RATIO = 4295128739;
 uint160 constant MAX_SQRT_RATIO =
     1461446703485210103287273052203988822378723970342;
 
-contract FlashSwap is IERC3156FlashBorrower {
+contract FlashArb is IERC3156FlashBorrower {
     IERC20 public constant dai = IERC20(DAI);
     IERC20 public constant usds = IERC20(USDS);
     IERC20 public constant usdc = IERC20(USDC);
